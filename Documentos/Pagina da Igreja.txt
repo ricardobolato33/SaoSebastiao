@@ -1,0 +1,144 @@
+Menu
+
+--------------------------
+
+Pagina Inicial (clicar na imagem)
+
+A Paroquia
+- Historico
+- Pároco (Padre)
+
+Atendimento
+- Horario de Funcionamento
+
+Multimidia
+- Fotos
+- Videos
+- Audio (Orações/Preces)
+
+Fale Conosco
+- Formulario de contato
+- Mapa
+- Localização
+- Telefone
+
+Rodapé
+- Principais links
+(mapa)
+(fale conosco)
+(a paroquia)
+(atendimento)
+
+-----------------
+
+Pagina
+
+---------------------
+
+Slider
+
+Embaixo do Slider
+Agenda || Eventos || Oração 
+
+Oração - Vai ter uma vela e um botão para pedir oração
+(Ver com o padre se todo mundo vai poder ver outras orações)
+
+
+-----------
+Tabelas
+-----------
+
+Tabela Para Oração
+T_ORACAO
+- Codigo
+- Nome (De quem solicitou)
+- Mensagem
+- Data
+- Email
+- Cidade
+- Estado
+- Telefone
+- Id Exibir X Dias (Confirmar se todo mundo vai poder ver as orações solicitadas)
+- Id Usuario
+
+
+------------
+
+Tabela Para Eventos
+T_EVENTO
+- Codigo
+- Descrição
+- Data de Criação
+- Data Inicial Evento
+- Data Final Evento
+- Observações
+- Id Usuario
+
+
+------------
+
+Tabela para Agenda (Horario das Missas)
+- Codigo
+- Descrição
+- Dia da Semana
+- Horario Inicio
+- Horario Fim
+- Descrição do que é (catequese, missa, oração, novena)
+- Id Usuario
+
+------------
+
+Tabela para Armazenar Caminho das Fotos
+- Codigo Foto
+- Codigo Evento
+- Titulo
+- Caminho da Foto
+- Id Usuario
+
+-----------
+
+Tabela de Usuarios
+- Codigo
+- Nome
+- Login
+- Senha
+- Função na Igreja
+
+
+
+----------------------------------
+Administrativo
+---------------------------------
+
+Pagina de Login
+
+Dashboard
+
+Botao para 
+- Agenda
+- Eventos
+- Oração
+- Fotos
+
+Agenda / Eventos / Oração / Fotos
+- Criar
+- Editar
+- Excluir
+- Consultar
+
+
+Inserir um contador de Acesso
+- Regiao que veio
+- Data de Acesso
+- Hora de Acesso
+- Onde Navegou
+- Paginas que Clicou
+- Quantas Vezes clicou
+
+
+
+http://vandelaydesign.net/stylish-theme/
+http://paroquiasaosebastiao.com.br/
+http://saojosedojardimeuropa.com.br/acenda-uma-vela/
+http://saojosedojardimeuropa.com.br/
+http://saojosedojardimeuropa.com.br/oracoes/
