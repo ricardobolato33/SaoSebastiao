@@ -1,0 +1,108 @@
+Ricardo
+
+- Criar o Header (Menu/Pagina Inicial)
+- Criar o Footer
+
+- Criar Pagina "Paroquia"
+
+Fale Conosco
+- Formulario de Contato
+- Mapa
+- Localização (Endereço)
+- Telefone
+
+
+Pagina Inicial
+
+
+Embaixo do Slider
+Agenda || Eventos || Oração 
+
+
+
+
+--------------------------------------
+
+Mariana
+
+-----------
+Tabelas
+-----------
+
+Tabela Para Oração
+T_ORACAO
+- Codigo
+- Nome (De quem solicitou)
+- Mensagem
+- Data
+- Email
+- Cidade
+- Estado
+- Telefone
+- Id Exibir X Dias (Confirmar se todo mundo vai poder ver as orações solicitadas)
+- Id Usuario
+
+
+------------
+
+Tabela Para Eventos
+T_EVENTO
+- Codigo
+- Descrição
+- Data de Criação
+- Data Inicial Evento
+- Data Final Evento
+- Observações
+- Id Usuario
+
+
+------------
+
+Tabela para Agenda (Horario das Missas)
+- Codigo
+- Descrição
+- Dia da Semana
+- Horario Inicio
+- Horario Fim
+- Descrição do que é (catequese, missa, oração, novena)
+- Id Usuario
+
+------------
+
+Tabela para Armazenar Caminho das Fotos
+- Codigo Foto
+- Codigo Evento
+- Titulo
+- Caminho da Foto
+- Id Usuario
+
+-----------
+
+Tabela de Usuarios
+- Codigo
+- Nome
+- Login
+- Senha
+- Função na Igreja
+
+
+
+----------------------------------
+Administrativo
+---------------------------------
+
+Pagina de Login
+
+Dashboard
+
+Botao para 
+- Agenda
+- Eventos
+- Oração
+- Fotos
+
+Agenda / Eventos / Oração / Fotos
+- Criar
+- Editar
+- Excluir
+- Consultar
