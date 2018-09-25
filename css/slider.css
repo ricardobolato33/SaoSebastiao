@@ -1,0 +1,36 @@
+.galeria{
+  width: 100%;
+  min-height: 450px;
+  position: relative;
+  overflow: hidden;
+  }
+
+.fotos{
+  position: absolute; /* uma imagem fica uma abaixo da outra */
+  opacity: 0;
+  animation-name: animacao;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animacao{
+  25%{
+    opacity: 1;
+    /*transform:scale(1.1,1.1);*/
+  }
+
+  75%{
+  opacity: 0;
+  }
+}
+
+.fotos:nth-child(0){
+  animation-delay: 0s;
+}
+
+.fotos:nth-child(1){
+  animation-delay: 9s;
+}
+
+.fotos:nth-child(2){
+  animation-delay: 19s;
