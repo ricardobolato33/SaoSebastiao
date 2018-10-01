@@ -5,7 +5,13 @@
 
 <!-- DIV BARRA TOP-->
 <div class="logo">
-    <!-- <img src="img/logo.jpg" style="width:180; height:100px;"> -->
+    <style>
+        body{
+            background-image: url("img/rezando.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
 </div> 
 
 

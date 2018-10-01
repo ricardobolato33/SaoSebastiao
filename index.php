@@ -69,23 +69,49 @@
 </div>
 
 <!-- informações-->
+<style>/** porque nao da certo no arquivo css ???*/
+    .informacao_pri{
+        display: flex;
+        padding:0;
+        margin-top: 20px;
+        margin-inline-start: 20px;
+        margin-right: 20px;
+        width: 33%;
+        height: 200px;
+        box-shadow: 0px 0px  10px  2px gray;
+        background-color:blue;
+        /*background-image: url(img/rezando.jpg);
+        background-size:cover;*/
+}
+</style>
+
 <div class="informacao">
   <div class="informacao_pri">
-      <img src="img/agenda.jpg" style="padding:10px; width:30px; height:30px;"/>
-      <h4> Agenda Semanal </h4>
+   <img src="img/agenda.jpg" style="padding:17px; width:25px; height: 25px;"/> 
+    <h1 class="h1_caixa1"> Horário das Missas </h1>
+    <div class="conteudocaixa1">
+    </div>
   </div>
 
   <div class="informacao_seg">
-    <a>teste 2</a>
+      <div class="container">
+          <h1> Eventos </h1>
+          <p>teste</p>
+      </div>
   </div>
-
   
   <div class="informacao_ter">
-    <a>teste 3</a>
+    <div class="container">
+        <h1> Pedido de Oração</h1>
+    </div>
   </div>
 
 </dv>
 
+
+<div class="box">
+
+</div>
 <!--
 <div class="container">
   <h3>dados</h3>
