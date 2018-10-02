@@ -64,33 +64,19 @@
     <section  class="galeria">
       <img class ="fotos" src="img/teste1.jpg" style="width:100%; height:450px;"/>
       <img class ="fotos" src="img/teste2.jpg" style="width:100%; height:450px;"/>
-      <img class ="fotos" src="img/teste3.jpg" style="width:100%; height:450px;"/>
     </section>
 </div>
 
-<!-- informações-->
-<style>/** porque nao da certo no arquivo css ???*/
-    .informacao_pri{
-        display: flex;
-        padding:0;
-        margin-top: 20px;
-        margin-inline-start: 20px;
-        margin-right: 20px;
-        width: 33%;
-        height: 200px;
-        box-shadow: 0px 0px  10px  2px gray;
-        background-color:blue;
-        /*background-image: url(img/rezando.jpg);
-        background-size:cover;*/
-}
-</style>
-
 <div class="informacao">
   <div class="informacao_pri">
-   <img src="img/agenda.jpg" style="padding:17px; width:25px; height: 25px;"/> 
-    <h1 class="h1_caixa1"> Horário das Missas </h1>
-    <div class="conteudocaixa1">
-    </div>
+     <div style="display: block;" >
+        <img src="img/agenda.jpg" style="padding:0px; width:25px; height: 25px; display: inline-block;"/> 
+        <span class="h1_caixa1"> Horário das Missas </span>
+      </div>
+
+   <div style="display: block;" >
+      <div class="conteudocaixa1"></div>
+   </div>
   </div>
 
   <div class="informacao_seg">
