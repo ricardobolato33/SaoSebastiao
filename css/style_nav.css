@@ -4,27 +4,98 @@ body{
   margin:0px;
 }
 
-.logo{
+.barra1{
+  position: relative;
   display: block;
   width: 100%;
-  height: 108px;
-  background-color: white;
+  height: 30px;
+  background-color:#A0522D;
+}
+
+.logo{
+  position: relative;
+  display: block;
+  padding: 0px;
+  width: 100%;
+  height: 135px;
+  background-color:white;
+  margin-left: 2px;
 }
 
 .logo_pri{
-  display: inline;
+  position: absolute;
+  /*display: inline*/;
   width: 107px;
   height: 107px;
   margin-left: 10px;
-  margin-top: 8px;
+  margin-top: 0px;
   background-color:white;
 }
 
+
+/* quadrado marrom escrito aviso */
+.aviso1{
+  position: absolute;
+  /*display: inline*/;
+  width: 90px;
+  height: 42px;
+  margin-left: 250px;
+  margin-top: 50px;
+  background-color:#A0522D;
+  font-size: 20px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+/* texto escrito aviso */
+.txtaviso{
+  font-size: 20px;
+  width: 60px;
+  margin-top: -12px;
+  margin-inline-start: 17px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* texto rolante do aviso - div de fora*/
+.infaviso{
+  position: absolute;
+  /*display: inline*/;
+  width: 710px;
+  height: 38px;
+  margin-left: 340px;
+  margin-top: 50px;
+  background-color:white;
+  border:2px solid #A0522D;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.txtfmarquee{
+  width: 710px;
+  height: 25px;
+  background-color: white;
+  margin-top: 9px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #A0522D;
+}
+
+.aviso2{
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  margin-left: 1000px;
+  margin-top: 34px;
+  background-color:#A0522D;
+}
+
 .logo_2{
+  position: absolute;
   width: 200px;
   height: 100px;
   float: right;
   background-color:white;
+  margin-left: 1150px;
 }
 
 .div_slider{
@@ -115,49 +186,42 @@ body{
   display: flex;
   padding: 0;
   width: 100%;
-  height: 240px;
-  /*background-color:#FAFAFA;*/
-  margin-bottom: 30px;
+  height: 215px;
+  background-color:white;
+  margin-bottom: 0px;
 }
 
-
 .informacao_pri{
- 
-  margin-top: 20px;
-  margin-inline-start: 20px;
-  margin-right: 20px;
-  width: 33%;
+  margin-top: 7px;
+  margin-inline-start: 0px;
+  margin-right: 7px;
+  width: 39%;
   height: 200px;
-  box-shadow: 0px 0px  10px  2px gray;
-  background-image: url(../img/rezando.jpg);
+  background-image: url(../img/pedido.png);
   background-size: cover;
 }
 
-
 .informacao_seg{
-  margin-top: 20px;
-  margin-right: 20px;
-  display: flex;
-  width: 33%;
+  margin-top: 7px;
+  margin-right: 7px;
+  width: 39%;
   height: 200px;
-  /*background-color:white;*/
-  border-width: medium;
-  border-style: solid;
-  border-color: #855E42;
-  border-radius: 20px;
+  /*background-image: url(../img/curalibertacao.jpg);*/
+  background-size: cover;
 }
 
 .informacao_ter{
-  margin-top: 20px;
-  margin-right: 20px;
-  display: flex;
-  width: 30%;
+  margin-top: 7px;
+  margin-right: 0px;
+  width: 21%;
   height: 200px;
  /* background-color:white;*/
-  border-width: medium;
+  /*border-width: medium;
   border-style: solid;
   border-color: #855E42;
-  border-radius: 20px;
+  border-radius: 20px;*/
+  background-image: url(../img/rezando2.jpg);
+  background-size: cover;
 }
 
 .h1_caixa1{
@@ -167,14 +231,111 @@ body{
   font-size: 25px;
   font-stretch: expanded;
   color:black;
+  font-weight: bold;
 }
 
 .conteudocaixa1{
+  /*display: flex;*/
+  padding: 0;
+  margin-top: 0px;
+  margin-left: 50px;
+  margin-right: 5px;
+  width: 98 %;
+  height: 150px;  
+}
+
+.conteudocaixa3{
+  padding: 0;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 5px;
+  width: 98 %;
+  height: 150px;  
+}
+
+.h1_caixa3{
+  display: inline-block;
+  /*width: 380px;*/
+  height: 20px;
+  font-size: 25px;
+  font-stretch: expanded;
+  color:black;
+  font-weight: bold;
+}
+
+.conteudocaixa3{
   display: flex;
   padding: 0;
-  margin-top: 55px;
-  width: 200px;
-  height: 145px;
-  background-color:red;
+  margin-top: 0px;
+  margin-left: 39px;
+  margin-right: 5px;
+  width: 98 %;
+  height: 150px;  
 }
+
+.horamissa{
+  font-size: 20px;
+  line-height: .4;
+  color: black;
+}
+
+.rodape{
+  position: relative;
+  background-color: #A0522D;
+  width: 100%;
+  height: 50px;
+}
+
+.divimgtel{
+  position: absolute;
+  font-size: 13px;
+  margin-top: 8px;
+  margin-left: 595px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.divnrtel{
+  position: absolute;
+  color: white;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-left: 620px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.divendereco{
+  position: absolute;
+  color:white;
+  width: 1000px;
+  font-size: 12px;
+  margin-top: 29px;
+  margin-left: 450px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.direito{
+  position: relative;
+  background-color: #5C3317;
+  width: 100%;
+  height: 20px;
+}
+
+.reservado{
+  position: absolute;
+  width: 100%;
+  height: 20px;
+}
+
+.txtreservado{
+  position: absolute;
+  color: white;
+  width: 100%;
+  height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 7pt;
+  margin-top: 5px;
+  margin-left: 495px;
+}
+
+
 
