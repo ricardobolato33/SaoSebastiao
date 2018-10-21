@@ -1,5 +1,5 @@
 body{
-  background-color:white;
+  background-color:#7491ad;
   padding:3px;
   margin:0px;
   margin-left: 0.5%;
@@ -18,12 +18,13 @@ body{
 
 .diasemana{
   position: absolute;
-  color: white;
+  color: #5C3317;
   font-size: 12px;
   margin-top: 8px;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  font-weight: bold;
 }
 
 .logo{
@@ -33,7 +34,6 @@ body{
   width: 100%;
   height: 135px;
   background-color:white;
-  margin-left: 2px;
 }
 
 .logo_pri{
@@ -105,7 +105,7 @@ body{
 
 .logo_2{
   position: static;
-  width: 200px;
+  width: 190px;
   height: 100px;
   background-color:white;
   margin-left: 85%;
@@ -200,7 +200,7 @@ body{
   padding: 0;
   width: 100%;
   height: 215px;
-  background-color:white;
+  background-color:#7491ad;
   margin-bottom: 0px;
 }
 
