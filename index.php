@@ -2,24 +2,12 @@
     include_once('header.php');
 ?>
 
-<!--<div id="faixa">
-  <div class="classeBarraTop">
-    <h5> Rua Pará, 459 | Jardim Brasil | Araraquara | SP | CEP: 14811-070 </h5>
-  </div>
- </div>
-
-<!-- DIV DATA E HORA-
-<div class="classeBarraHora">
-    <script language=javascript type="text/javascript">
-        document.write ("<h5>" + dayName[now.getDay() ] + ", " + now.getDate () + " de " + monName [now.getMonth() ]   +  " de "  +     now.getFullYear () + "   </h5>")
-    </script>
-</div>-->
-
 <!-- DIV BARRA TOP-->
 <div class="barra1">
-    <div>
-        <!--<img src="img/phone.png" style="margin-left:500px;  margin-top:3px; width:20; height:20px;"> 
-        <span class="divtelefone">(16) 3337-1898 | Araraquara - SP</span>-->
+    <div class="diasemana">
+        <script language=javascript type="text/javascript">
+            document.write ("<span>" + dayName[now.getDay() ] + ", " + now.getDate () + " de " + monName [now.getMonth() ]   +  " de "  +     now.getFullYear () + "   </span>")
+        </script>
     </div>
 </div> 
 
@@ -72,7 +60,7 @@
             
             <div class="navbar">
                 <a href="#home">Pedido de Oração</a>
-                <a href="#home">Noticias</a>
+                <a href="#home">Notícias</a>
                 <a href="#home">Atendimento</a>
             </div> 
         </div>  
@@ -101,8 +89,8 @@
     </div>
 
     <div class="informacao_seg">
-        <div class="container">
-            <img src="img/curalibertacao.jpg"  width="525" height="200"/>
+        <div style="display: block;">
+           <!-- <img src="img/curalibertacao.jpg"  width="525" height="200"/>-->
         </div>
     </div>
   
@@ -115,7 +103,7 @@
         <div style="display: block;" >
             <div class="conteudocaixa3">
                 <div class="horamissa">
-                    <p>Quartas-Feiras: 19:00 </p>
+                    <p>Quartas-Feiras: 19:30 </p>
                     <p>Sextas-Feiras:  15:00 </p>
                     <p>Sábados:        18:00 e 20:00</p>
                     <p>Domingos:       08:00 e 19:00</p>
