@@ -23,6 +23,7 @@
 			now = new Date
 		</script>
 
-		<title>São Sebastião - Araraquara/S.P.</title>
+		<title>Paróquia São Sebastião</title>
+		<link rel="shortcut icon" href="img/favicon.ico"/>
 	</head>
 	<body>

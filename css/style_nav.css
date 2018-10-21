@@ -199,7 +199,7 @@ body{
   display: flex;
   padding: 0;
   width: 100%;
-  height: 215px;
+  height: 216px;
   background-color:#7491ad;
   margin-bottom: 0px;
 }
@@ -218,7 +218,7 @@ body{
 .informacao_pri:hover{
   background-image: url(../img/pedido.png);
   background-size: cover;
-  transform: scale(1.1);
+  transform: scale(1.05);
   cursor: pointer;
   border-radius: 10px 10px 10px 10px;
 }
@@ -236,7 +236,7 @@ body{
 .informacao_seg:hover{
   background-image: url(../img/curalibertacao.jpg);
   background-size: cover;
-  transform: scale(1.1);
+  transform: scale(1.05);
   cursor: pointer;
   border-radius: 10px 10px 10px 10px;
 }
