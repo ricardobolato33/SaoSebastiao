@@ -1,5 +1,5 @@
 body{
-  background-color:#7491ad;
+  background-color:white;
   padding:3px;
   margin:0px;
   margin-left: 0.5%;
@@ -10,7 +10,7 @@ body{
 
 .barra1{
   position: relative;
-  background-color: #A0522D;
+  background-color: #8B0000;
   width: 100%;
   height: 30px;
   border-radius: 8px 8px 0px 0px;
@@ -18,7 +18,7 @@ body{
 
 .diasemana{
   position: absolute;
-  color: #5C3317;
+  color: white;
   font-size: 12px;
   margin-top: 8px;
   width: 100%;
@@ -44,6 +44,7 @@ body{
   margin-left: 10px;
   margin-top: 0px;
   background-color:white;
+  cursor: pointer;
 }
 
 
@@ -55,7 +56,7 @@ body{
   height: 42px;
   margin-left: 250px;
   margin-top: 50px;
-  background-color:#A0522D;
+  background-color:#B22222;
   font-size: 20px;
   border-radius: 5px 0px 0px 5px;
 }
@@ -74,24 +75,24 @@ body{
 .infaviso{
   position: absolute;
   /*display: inline*/;
-  width: 710px;
+  width: 52%;
   height: 38px;
   margin-left: 340px;
   margin-top: 50px;
   background-color:white;
-  border:2px solid #A0522D;
+  border:2px solid #B22222;
   border-radius: 0px 5px 5px 0px;
 }
 
 .txtfmarquee{
-  width: 710px;
+  width: 100%;
   height: 25px;
   background-color: white;
   margin-top: 9px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  font-weight: 500;
-  color: #A0522D;
+  font-weight: 650;
+  color: #B22222;
 }
 
 .aviso2{
@@ -104,11 +105,12 @@ body{
 }
 
 .logo_2{
-  position: static;
-  width: 190px;
+  position: relative;
+  width: 5%;
   height: 100px;
   background-color:white;
-  margin-left: 85%;
+  margin-left: 83%;
+  background-color: red
 }
 
 .div_slider{
@@ -126,7 +128,7 @@ body{
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: #5C3317; /* cor de menu pai sem selecionar*/
+  background-color: #B22222; /* cor de menu pai sem selecionar*/
   font-family: Arial;
 }
 
@@ -160,7 +162,7 @@ body{
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color:#855E42; /*cor de fundo do menu pai*/
+  background-color:#CD0000; /*cor de fundo do menu pai*/
 }
 
 /* Dropdown content (hidden by default) */
@@ -177,16 +179,17 @@ body{
 .dropdown-content a {
   float: none;
   color: black;
-  font-weight: bold;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
+  font-weight: 520;
 }
 
-/* Add a grey background color to dropdown links on hover */
+/* quando passa o mouse sobre o menu - Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color:#855E42;
+  background-color:#CD0000;
+  color: white;
 }
 
 /* Show the dropdown menu on hover */
@@ -200,7 +203,7 @@ body{
   padding: 0;
   width: 100%;
   height: 216px;
-  background-color:#7491ad;
+  background-color:white;
   margin-bottom: 0px;
 }
 
@@ -312,7 +315,7 @@ body{
 
 .rodape{
   position: relative;
-  background-color: #A0522D;
+  background-color: #B22222;
   width: 100%;
   height: 50px;
 }
@@ -349,11 +352,10 @@ body{
 
 .direito{
   position: relative;
-  background-color: #5C3317;
+  background-color: #8B0000;
   width: 100%;
   height: 20px;
   border-radius: 0px 0px 8px 8px;
-}
 }
 
 .reservado{

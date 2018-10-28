@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="css/barratop.css">
 	    <!--<link rel="stylesheet" href="css/style_barra_top.css">-->
 		<link rel="stylesheet" href="css/style_nav.css">
+		<link rel="stylesheet" href="css/paroco.css">
 	
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">  </script>

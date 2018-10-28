@@ -13,7 +13,8 @@
 
 <div class="logo">
     <div class="logo_pri">
-       <img src="img/logo.jpg" style=" padding:3px;  width:180; height:130px;"> 
+       <img src="img/logo.jpg" style=" padding:3px;  width:160px; height:130px;"> 
+       <href="index.php">
     </div>
 
     <div class="aviso1">
@@ -41,8 +42,9 @@
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-                <a href="#">História</a>
-                <a href="#">O Pároco</a>
+                <a href="index.php">História de São Sebastião</a>
+                <a href="index.php">História de Igreja</a>
+                <a href="paroco.php">O Pároco</a>
             </div>
         </div> 
 
