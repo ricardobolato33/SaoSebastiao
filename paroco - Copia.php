@@ -71,32 +71,11 @@
     </div>
 </div>
 
-<div class="divmaster">   
-    <div class="divdescricaopri">
-        <div class="divfotopadre">
-            <img src="img/fotopadre.jpg" style="padding:0px;  width:203px; height:220px; border-radius: 8px 8px 8px 8px;"> 
-        </div> 
-        
-        <div class="divdadospadre">
-           
-        </div> 
-
-        <div class="titulobibliografia">
-            <h2>PADRE</h2>
-            <h2>Oswaldo Gonçalves Pereira</h2>
-            <!--<div class="descricaobibliografia">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Padre Oswaldo Gonçalves Pereira nasceu em Ibitinga, interior do estado de São Paulo em cinco de Julho de 1963,
-                filho de Salvador Gonçalves Pereira (falecido) e Benedita Amâncio Pereira. Foi batizado em Ibitinga (SP) em 06/01/1964 e Crismado
-                em 08/02/1965.<br />  
-                Fez seus estudos primários e secundários na Escola Industrial de Ibitinga - SP, Filosofia no Seminário Diocesano de 
-                São Carlos e licenciatura Plena em Filosofia, Psicologia e História na Faculdade Salesiana de Filosofia, Ciências e Letras de Lorena (SP) 
-                e Teologia na PUCCAMP em Campinas (SP). <br />
-                Ordenou-se diácono em 14/10/1988 e Padre em 05/01/1989, pelas mãos de Dom Constatino Amstalden em Ibitinga(SP).
-            </div>-->
-       </div>
+<div class="divmaster">
+    <div class="divfotopadre">
+        <img src="img/fotopadre.jpg" style="padding:0px;  width:203px; height:220px; border-radius: 8px 8px 8px 8px;"> 
     </div>
-</div>
-     <!--
+
     <div class="titulobibliografia">
         <h2>PADRE</h2>
         <h2>Oswaldo Gonçalves Pereira</h2>
@@ -134,8 +113,9 @@
         <h4> &diams;&nbsp;&nbsp;2004 a 2003 - Membro do Colégio de Consultores da Diocese<h4>
         <h4> &diams;&nbsp;&nbsp;2011 - Atualmente é Paroco da Paróquia São Sebastião (Araraquara - SP)<h4>
         <h4> &diams;&nbsp;&nbsp;2017 - Foi nomeado vigário epsicopal para novas comunidades da dioceses<h4>
-    </div>-->
-
+    </div>
+    
+</div>
 
 
 <?php
