@@ -1,4 +1,4 @@
-.divmaster{
+.divmaster_ss{
   display: block;
   padding: 0px;
   width: 100%;
@@ -7,20 +7,19 @@
   margin-bottom: 1%;
 }
 
-.divdescricaopri{
+.divdescricaopri_ss{
   display: block;
-  width: 100%;
   background:white;
 }
 
-.divfotopadre{
+.divfotos{
   display: inline-block;
   margin-top: 5px;
   margin-left: 0px;
   width: 15%;
 }
 
-.divdadospadre{
+.divdadosss{
   padding: 5px; 
   display: inline-block;
   margin-top: 0px;
@@ -30,7 +29,7 @@
   vertical-align: top;
 }
 
-.titulobibliografia{
+.titulobibliografia_s{
   padding: 5px 0px 4px 0px;
   display: block;
   width: 100.8%;
@@ -41,7 +40,7 @@
   border-radius: 8px 8px 8px 8px;
 }
 
-.desricaotitulo1{
+.desricaotitulo1_s{
   color: white;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
@@ -51,7 +50,7 @@
   font-size: 14pt;
 }
 
-.descricaobibliografia{
+.descricaobibliografia_s{
   display: block;
   margin-right: 1%;
   margin-top: 1%;
@@ -61,9 +60,8 @@
   font-size: 13pt;
 }
 
-
 /***********/
-.divdadosfuncoes{
+.divdadosfuncoes_s{
   padding: 5px 0px 4px 0px;
   height: 40px;
   display: inline-block;
@@ -75,7 +73,7 @@
   border-radius: 8px 8px 8px 8px;
 }
 
-.desricaotitulo2{
+.desricaotitulo2_s{
   display: block;
   padding: 7px 0px 4px 0px;
   color: white;
@@ -85,55 +83,16 @@
   font-size: 14.5pt;
 }
 
-.descricaofuncoes{
+.descricaofuncoes_ss{
   display: block;
-  padding: 5px;
-  width: 100%;
-  
-}
-.descricaofuncoes h4{
+  margin-right: 1%;
+  line-height: 1.5;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 13pt;
-  line-height: 1.02;
-  font-weight: 50;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
-
-/*
-.titulofuncoes{
-  display: block;
-  width: 99%;
-  height: 40px;
-  background-color:#8B0000; 
-  text-align: left;
-  border-radius: 8px 8px 8px 8px;
-  margin-top: 53px;
+.descricaofuncoes_ss h3{
+  margin-left: 2%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
-/*
-.titulofuncoes h2{
-  margin-left: 1%;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 100;
-  color:white;
-  line-height:8px;
-  font-size: 20px;
-}
-
-.descricaofuncoes{
-  display: block;
-  position: absolute;
-  width: 60%;
-  height: 450px;
-  background-color: white;
-  margin-top: 270px;  
-  text-align: left;
-  margin-left: 1%;
-}
-
-.descricaofuncoes h4{
-  color:rgb(31, 29, 29);
-  line-height:3px;
-  font-weight: 100;
-}*/
-

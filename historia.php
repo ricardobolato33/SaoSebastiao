@@ -13,8 +13,10 @@
 
 <div class="logo">
     <div class="logo_pri">
-       <img src="img/logo.jpg" style=" padding:3px;  width:160px; height:130px;"> 
-       <href="index.php">
+      <!-- <img src="img/logo.jpg" style="padding:3px;  width:160px; height:130px;"> -->
+
+       <!-- <a href="index.php"> <img src="img/logo.jpg" style="padding:3px;  width:160px; height:130px;"> -->
+       <a href="index.php"><img src="img/logo.jpg" style="padding:3px;  width:160px; height:130px;"/></a>
     </div>
 
     <div class="aviso1">
@@ -70,51 +72,16 @@
     </div>
 </div>
 
-<!-- Slider -->
-<div class="div_slider">
-    <section  class="galeria">
-        <img class ="fotos" src="img/teste1.jpg" style="width:100%; height:450px;"/>
-        <img class ="fotos" src="img/teste2.jpg" style="width:100%; height:450px;"/>
-        <img class ="fotos" src="img/teste3.jpg" style="width:100%; height:450px;"/>
-    </section>
-</div>
-
-<!-- Conteudo -->
-<div class="informacao">
-    <div class="informacao_pri">
-        <div style="display: block;">
-        </div>
-        
-        <div style="display: block;">
-            <div class="conteudocaixa1">             
-            </div>
-        </div>
+<div class="divmaster_historia">   
+    <div class="video_titulo">
+       <p>Paróquia de São Sebastião | Araraquara | SP</p>
     </div>
-
-    <div class="informacao_seg">
-        <div style="display: block;">
-           <!-- <img src="img/curalibertacao.jpg"  width="525" height="200"/>-->
-        </div>
-    </div>
-  
-    <div class="informacao_ter">
-        <div style="display: block;" >
-            <img src="img/agenda.jpg" style="padding:3px; width:25px; height:25px; display: inline-block;"/> 
-            <span class="h1_caixa3"> Horário das Missas</span>
-        </div>
-
-        <div style="display: block;" >
-            <div class="conteudocaixa3">
-                <div class="horamissa">
-                    <p>Quartas-Feiras: 19:30 </p>
-                    <p>Sextas-Feiras:  15:00 </p>
-                    <p>Sábados:        18:00 e 20:00</p>
-                    <p>Domingos:       08:00 e 19:00</p>
-                </div> 
-            </div>
-        </div>
+    
+    <div class="video_igreja">
+        <iframe width="469" height="350" src="https://www.youtube.com/embed/JlM5bg6KKSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </div>
+     
 
 <?php
     include_once('footer.php');

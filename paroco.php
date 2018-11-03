@@ -44,9 +44,10 @@
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-                <a href="index.php">História de São Sebastião</a>
-                <a href="index.php">História de Igreja</a>
-                <a href="paroco.php">O Pároco</a>
+                <a href="ss.php">A vida de São Sebastião</a>
+                <a href="paroco.php">Pároco</a>
+                <a href="diacono.php">Diácono</a>
+                <a href="historia.php">História de Igreja</a>
             </div>
         </div> 
 

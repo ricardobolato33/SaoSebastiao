@@ -13,8 +13,10 @@
 
 <div class="logo">
     <div class="logo_pri">
-       <img src="img/logo.jpg" style=" padding:3px;  width:160px; height:130px;"> 
-       <href="index.php">
+      <!-- <img src="img/logo.jpg" style="padding:3px;  width:160px; height:130px;"> -->
+
+       <!-- <a href="index.php"> <img src="img/logo.jpg" style="padding:3px;  width:160px; height:130px;"> -->
+       <a href="index.php"><img src="img/logo.jpg" style="padding:3px;  width:160px; height:130px;"/></a>
     </div>
 
     <div class="aviso1">
@@ -70,51 +72,33 @@
     </div>
 </div>
 
-<!-- Slider -->
-<div class="div_slider">
-    <section  class="galeria">
-        <img class ="fotos" src="img/teste1.jpg" style="width:100%; height:450px;"/>
-        <img class ="fotos" src="img/teste2.jpg" style="width:100%; height:450px;"/>
-        <img class ="fotos" src="img/teste3.jpg" style="width:100%; height:450px;"/>
-    </section>
-</div>
-
-<!-- Conteudo -->
-<div class="informacao">
-    <div class="informacao_pri">
-        <div style="display: block;">
-        </div>
+<div class="divmaster">   
+    <div class="divdescricaopri_d">
+        <div class="divfotodiacono">
+            <img src="img/fotodiacono.jpg" style="padding:0px;  width:100%; border-radius: 8px 8px 8px 8px;"> 
+        </div> 
         
-        <div style="display: block;">
-            <div class="conteudocaixa1">             
-            </div>
-        </div>
-    </div>
-
-    <div class="informacao_seg">
-        <div style="display: block;">
-           <!-- <img src="img/curalibertacao.jpg"  width="525" height="200"/>-->
-        </div>
-    </div>
-  
-    <div class="informacao_ter">
-        <div style="display: block;" >
-            <img src="img/agenda.jpg" style="padding:3px; width:25px; height:25px; display: inline-block;"/> 
-            <span class="h1_caixa3"> Horário das Missas</span>
-        </div>
-
-        <div style="display: block;" >
-            <div class="conteudocaixa3">
-                <div class="horamissa">
-                    <p>Quartas-Feiras: 19:30 </p>
-                    <p>Sextas-Feiras:  15:00 </p>
-                    <p>Sábados:        18:00 e 20:00</p>
-                    <p>Domingos:       08:00 e 19:00</p>
-                </div> 
-            </div>
-        </div>
+        <div class="divdadosdiacono">
+            <div class="titulobibliografia_d">
+                <div class="desricaotitulo1_d">
+                     DIÁCONO <br />Luis Martini
+                </div>
+           </div>
+           
+           <div class="descricaobibliografia_d">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diácono Luis Martini, nascido em 17 de novembro de 1964 na cidade de Marília - SP, 
+                teve sua ordenação em 05 de setembro de 2018 na paróquia de São Sebastião de Araraquara - SP. <br />
+                Sua primeira ordenação permanente foi realizado por Dom Paulo Sérgio Machado.
+                Casado com Marlene Marinho Martini, diácono Luis é pai de dois filhos, Camila Martini e Felipe Martine.
+           </div>
+        </div>         
+    </div>  
+        
+    <div class="descricaofuncoes_d">
+        
     </div>
 </div>
+     
 
 <?php
     include_once('footer.php');

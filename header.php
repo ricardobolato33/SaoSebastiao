@@ -7,11 +7,12 @@
 		
 		<link rel="stylesheet" href="css/faixatop.css">
         <link rel="stylesheet" href="css/barratop.css">
-	    <!--<link rel="stylesheet" href="css/style_barra_top.css">-->
 		<link rel="stylesheet" href="css/style_nav.css">
 		<link rel="stylesheet" href="css/paroco.css">
+		<link rel="stylesheet" href="css/diacono.css">
+		<link rel="stylesheet" href="css/ss.css">
+		<link rel="stylesheet" href="css/historia.css">
 	
-		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">  </script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
