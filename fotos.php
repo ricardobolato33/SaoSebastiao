@@ -71,16 +71,34 @@
         </div>  
     </div>
 </div>
-
-<div class="divmaster_historia">   
-    <div class="video_titulo">
-       <p>Paróquia de São Sebastião | Araraquara | SP</p>
-    </div>
-    
-    <div class="video_igreja">
-        <iframe width="469" height="350" src="https://www.youtube.com/embed/JlM5bg6KKSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-</div>
+ 
+<ul id="album-fotos">
+    <li id="foto01"><span>São Sebastião</span></li>
+    <li id="foto02"><span>São Sebastião</span></li>
+    <li id="foto03"><span>São Sebastião</span></li>
+    <li id="foto04"><span>São Sebastião</span></li>
+    <li id="foto05"><span>São Sebastião</span></li>
+    <li id="foto06"><span>São Sebastião</span></li>
+    <li id="foto07"><span>São Sebastião</span></li>
+    <li id="foto08"><span>São Sebastião</span></li>
+    <li id="foto09"><span>São Sebastião</span></li>
+    <li id="foto010"><span>São Sebastião</span></li>
+    <li id="foto011"><span>São Sebastião</span></li>
+    <li id="foto012"><span>São Sebastião</span></li>
+    <li id="foto013"><span>São Sebastião</span></li>
+    <li id="foto014"><span>São Sebastião</span></li>
+    <li id="foto015"><span>São Sebastião</span></li>
+    <li id="foto016"><span>São Sebastião</span></li>
+    <li id="foto017"><span>São Sebastião</span></li>
+    <li id="foto018"><span>São Sebastião</span></li>
+    <li id="foto019"><span>São Sebastião</span></li>
+    <li id="foto020"><span>São Sebastião</span></li>
+    <li id="foto021"><span>São Sebastião</span></li>
+    <li id="foto022"><span>São Sebastião</span></li>
+    <li id="foto023"><span>São Sebastião</span></li>
+    <li id="foto024"><span>São Sebastião</span></li>
+    <li id="foto025"><span>São Sebastião</span></li>
+</ul>
      
 
 <?php

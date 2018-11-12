@@ -57,7 +57,7 @@
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Fotos</a>
+                    <a href="fotos.php">Fotos</a>
                     <a href="#">Videos</a>
                     <a href="#">Audio</a>
                 </div>
@@ -120,8 +120,11 @@
         São Sebastião é celebrado no dia 20 de janeiro. Existe também uma capela em Palatino, com uma pintura que mostra Irene tratando das feridas de Sebastião. Irene também foi canonizada e sua festa é no dia 30 de março.
     </div>
 </div>
-     
+
+<div class = "referencia">
+    <br/><br/><a target="_blank" href = "https://cruzterrasanta.com.br/historia-de-sao-sebastiao/162/102/#c"> Fonte: https://cruzterrasanta.com.br/historia-de-sao-sebastiao/162/102/#c </a>
+</div>
 
 <?php
-    include_once('footer.php');
+
 ?>

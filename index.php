@@ -25,7 +25,9 @@
 
      <div class="infaviso">
          <div class="txtfmarquee">
-            <marquee> O Senhor é meu pastor e nada me faltará</marquee>
+            <marquee> O Senhor é meu pastor e nada me faltará &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Missa todos os Domingos nos horário 07:30 e 19:00</marquee>
         </div>
     </div>
      
@@ -42,7 +44,7 @@
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-                <a href="ss.php">A vida de São Sebastião</a>
+                <a href="ss.php">Vida de São Sebastião</a>
                 <a href="paroco.php">Pároco</a>
                 <a href="diacono.php">Diácono</a>
                 <a href="historia.php">História de Igreja</a>
@@ -55,7 +57,7 @@
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Fotos</a>
+                    <a href="fotos.php">Fotos</a>
                     <a href="#">Videos</a>
                     <a href="#">Audio</a>
                 </div>
