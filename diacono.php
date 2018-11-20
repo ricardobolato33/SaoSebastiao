@@ -31,9 +31,9 @@
         </div>
     </div>
      
-    <div class="logo_2">
+    <!--<div class="logo_2">
         <img src="img/logo2.jpg" style="width:180; height:100px;"> 
-    </div>
+    </div>-->
 </div> 
 
    <!-- DIV MENU-->
@@ -57,7 +57,7 @@
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Fotos</a>
+                    <a href="fotos.php">Fotos</a>
                     <a href="#">Videos</a>
                     <a href="#">Audio</a>
                 </div>
@@ -66,7 +66,7 @@
             <div class="navbar">
                 <a href="#home">Pedido de Oração</a>
                 <a href="#home">Notícias</a>
-                <a href="#home">Atendimento</a>
+                <a href="#home">Contato</a>
             </div> 
         </div>  
     </div>
@@ -93,10 +93,6 @@
            </div>
         </div>         
     </div>  
-        
-    <div class="descricaofuncoes_d">
-        
-    </div>
 </div>
      
 

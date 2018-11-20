@@ -13,6 +13,8 @@
 		<link rel="stylesheet" href="css/ss.css">
 		<link rel="stylesheet" href="css/historia.css">
 		<link rel="stylesheet" href="css/fotos.css">
+		<link rel="stylesheet" href="css/videos.css">
+		<link rel="stylesheet" href="css/atendimento.css">
 	
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">  </script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -22,7 +24,7 @@
 	
 		<script language=javascript type="text/javascript">
 			dayName = new Array ("Domingo", "Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira", "Sábado")
-			monName = new Array ("janeiro", "fevereiro", "março", "abril", "maio", "junho", "agosto", "outubro", "novembro", "dezembro")
+			monName = new Array ("janeiro", "fevereiro", "março", "abril", "maio", "junho","julho", "agosto","setembro", "outubro", "novembro", "dezembro")
 			now = new Date
 		</script>
 

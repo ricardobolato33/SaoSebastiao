@@ -72,16 +72,21 @@
     </div>
 </div>
 
-<div class="divmaster_historia">   
-    <div class="video_titulo">
-       <p>Paróquia de São Sebastião | Araraquara | SP</p>
+<div class = "videos">
+    <div class = "video1">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/UZL4TwIBJgw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class= "titulo1">
+                <span>Escolas Bíblicas do Vicariato São Bento</span>
+            </div>
     </div>
-    
-    <div class="video_igreja">
-        <iframe width="469" height="350" src="https://www.youtube.com/embed/JlM5bg6KKSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <div class = "video2">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/Uvc2w8r-cxk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class= "titulo2">
+                <span>Homilia Padre Oswaldo Gonçalves Pereira | 10/11/2013</span>
+            </div>
     </div>
 </div>
-     
 
 <?php
     include_once('footer.php');
