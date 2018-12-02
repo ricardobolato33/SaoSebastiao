@@ -30,10 +30,6 @@
             <marquee> O Senhor é meu pastor e nada me faltará</marquee>
         </div>
     </div>
-     
-    <!--<div class="logo_2">
-        <img src="img/logo2.jpg" style="width:180; height:100px;"> 
-    </div>-->
 </div> 
 
    <!-- DIV MENU-->
@@ -57,8 +53,8 @@
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Fotos</a>
-                    <a href="#">Videos</a>
+                    <a href="fotos.php">Fotos</a>
+                    <a href="videos.php">Videos</a>
                     <a href="#">Audio</a>
                 </div>
             </div> 
@@ -72,34 +68,31 @@
     </div>
 </div>
 
-<div class="preatendimento">
-   <span>Estamos aguardando seu contato, para nós da Paróquia <b>São Sebastião</b>, é sempre um prazer atendê-lo</span>
-</div>
+<div class="divoracao">   
+    <div class="formulario">
+        <form class="form_vela" name="form-oracao" action="" method="post">
+           <h1>Envie seu pedido de oração</h1> 
+           <p class="nome">
+                <input type="text" name="nome" placeholder="informe seu nome" required="required">
+            </p>
 
-<div class="atendimento">   
-    <div class="atendimento_contato">
-        <div class="titulo_atendimento">
-           <span> Horários de Atendimento</span>
-        </div>
+            <p class="email">
+                <input type="email" name="email" placeholder="informe seu email" required="required">
+            </p>
 
-        <div class="atendimento_conteudo">
-           <span><b> <font size = "3"> Secretaria:            </font></b> Segundas as Sextas-Feiras das 08:00 às 11:00 - 13:00 às 17:00 Sábado 08:00 às 12:00 <br/> <br /></span>
-           <span><b> <font size = "3">Confissões:             </font></b> Agendar na Secretária ou pelo telefone (16) 3337-1898 <br/><br/></span>
-           <span><b> <font size = "3">Atendimento com o Padre:</font></b> Quartas-Feiras 08:00 às 11:00 - 13:00 às 16:00 <br/><br/></span>
-           <span><b> <font size = "3">Noivos & Casais:        </font></b> Quartas-Feiras 08:00 às 11:00 - 13:00 às 16:00 <br/><br/></span>
-           <span><b> <font size = "3">Telefone:               </font></b> (16) 3337-1898 <br/><br/></span>
-        </div>
-        
-        <div class="icoface">
-           <a href="https://www.facebook.com/pages/Par%C3%B3quia-S%C3%A3o-Sebasti%C3%A3o/188908191156134?ref=br_rs" target="_blank">
-                <img src="img/icoface.png" style="width:30px; height:30px;" alt="Facebook">
-           </a>
-        </div>
+            <p class="mensagem">
+                <textarea name="mensagem" placeholder="deixe sua mensagem"></textarea>
+            </p>
+
+            <p class="enviar">
+                <input type="submit" name="enviar" value="Enviar">
+            </p>
+        </form>
     </div>
-</div>
 
-<div class="mapa">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3704.8463319044154!2d-48.157183685054456!3d-21.786207585593022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b8f4066b63ad25%3A0x15af3831944c1bf1!2zUGFyw7NxdWlhIFPDo28gU2ViYXN0acOjbw!5e0!3m2!1sen!2sbr!4v1542729862975" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <div class="vela">
+        <img src="img/vela_acesa.gif" style="padding:0px;  width:100%; border-radius: 8px 8px 8px 8px;"> 
+    </div>
 </div>
      
 

@@ -31,9 +31,9 @@
         </div>
     </div>
      
-    <div class="logo_2">
+    <!--<div class="logo_2">
         <img src="img/logo2.jpg" style="width:180; height:100px;"> 
-    </div>
+    </div>-->
 </div> 
 
    <!-- DIV MENU-->
@@ -64,7 +64,7 @@
             </div> 
             
             <div class="navbar">
-                <a href="#home">Pedido de Oração</a>
+                <a href="oracao.php">Pedido de Oração</a>
                 <a href="#home">Notícias</a>
                 <a href="atendimento.php">Contato</a>
             </div> 

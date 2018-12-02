@@ -1,8 +1,9 @@
 <footer>
 	<div class="rodape">
+	    <!--<span class="divimgtel"><img src="img/phone.png" style="width:5; height:15px;"></span>-->
 		<span class="divendereco">Av. dos Estados, 488 | Jardim Brasil | Araraquara SP | CEP:14811-153</span>
-		<span class="divnrtel">(16) 3337-1898</span>
-		<span class="divimgtel"><img src="img/phone.png" style="width:5; height:15px;"></span>
+		<span class="divnrtel"><img src="img/phone.png" style="width:5; height:15px;">&nbsp;&nbsp;(16) 3337-1898</span>
+		
 	</div>
 
 	<div class="direito"> 

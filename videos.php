@@ -64,7 +64,7 @@
             </div> 
             
             <div class="navbar">
-                <a href="#home">Pedido de Oração</a>
+                <a href="oracao.php">Pedido de Oração</a>
                 <a href="#home">Notícias</a>
                 <a href="atendimento.php">Contato</a>
             </div> 

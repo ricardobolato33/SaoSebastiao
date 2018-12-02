@@ -9,6 +9,18 @@
             document.write ("<span>" + dayName[now.getDay() ] + ", " + now.getDate () + " de " + monName [now.getMonth() ]   +  " de "  +     now.getFullYear () + "   </span>")
         </script>
     </div>
+    
+    <div class="conectar">
+        <a href="administrativo.php"><img src="img/bto-conectar.ico" style=" padding:0px;  width:20px; height:20px;"></a>
+    </div>
+
+    <div class="area-adm">
+         <form>
+             <input class="input-area"  type="usuario" placeholder="Usuário">
+             <input class="input-area"  type="senha" placeholder="Password">
+        </form>
+    </div>
+
 </div> 
 
 <div class="logo">
@@ -64,7 +76,7 @@
             </div> 
             
             <div class="navbar">
-                <a href="#home">Pedido de Oração</a>
+                <a href="oracao.php">Pedido de Oração</a>
                 <a href="#home">Notícias</a>
                 <a href="atendimento.php">Contato</a>
             </div> 
@@ -75,9 +87,9 @@
 <!-- Slider -->
 <div class="div_slider">
     <section  class="galeria">
-        <img class ="fotos" src="img/teste1.jpg" style="width:100%; height:450px;"/>
-        <img class ="fotos" src="img/teste2.jpg" style="width:100%; height:450px;"/>
-        <img class ="fotos" src="img/teste3.jpg" style="width:100%; height:450px;"/>
+        <img class = "fotos" src="img/slide01.jpg" style="width:100%; height:600px;"/>
+        <img class = "fotos" src="img/slide02.jpg" style="width:100%; height:600px;"/>
+        <img class = "fotos" src="img/slide03.jpg" style="width:100%; height:600px;"/>
     </section>
 </div>
 
@@ -85,27 +97,23 @@
 <div class="informacao">
     <div class="informacao_pri">
         <div style="display: block;">
-        </div>
-        
-        <div style="display: block;">
-            <div class="conteudocaixa1">             
-            </div>
+        <img src="img/pedido.png" style="width:100%; height:200px;"/>
         </div>
     </div>
 
     <div class="informacao_seg">
         <div style="display: block;">
-           <!-- <img src="img/curalibertacao.jpg"  width="525" height="200"/>-->
+            <img src="img/curalibertacao.jpg"  width="100%" height="200px;"/>
         </div>
     </div>
   
     <div class="informacao_ter">
         <div style="display: block;" >
-            <img src="img/agenda.jpg" style="padding:3px; width:25px; height:25px; display: inline-block;"/> 
-            <span class="h1_caixa3"> Horário das Missas</span>
+            <!--<img src="img/agenda.jpg" style="padding:3px; width:25px; height:25px; display: inline-block;"/> -->
+            <img src="img/horamissa.png"  width="90%" height="180px;"/>
         </div>
 
-        <div style="display: block;" >
+        <!--<div style="display: block;" >
             <div class="conteudocaixa3">
                 <div class="horamissa">
                     <p>Quartas-Feiras: 19:30 </p>
@@ -114,7 +122,7 @@
                     <p>Domingos:       08:00 e 19:00</p>
                 </div> 
             </div>
-        </div>
+        </div>-->
     </div>
 </div>
 
