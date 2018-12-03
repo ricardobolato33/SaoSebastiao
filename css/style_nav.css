@@ -124,6 +124,30 @@ body{
   color: #B22222;
 }
 
+/* menos que 965px o site se reajusta */
+@media (max-width: 965px) 
+{
+  .aviso1{
+    margin-left: 190px;
+   }
+
+   .infaviso{
+    width: 35%;
+    margin-left: 280px;
+   }
+}
+
+@media (max-width: 560px) 
+{
+  .aviso1{
+    display: none;
+   }
+
+   .infaviso{
+    display: none;
+   }
+}
+
 .aviso2{
   position: absolute;
   width: 90px;

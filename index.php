@@ -97,7 +97,7 @@
 <div class="informacao">
     <div class="informacao_pri">
         <div style="display: block;">
-        <img src="img/pedido.png" style="width:100%; height:200px;"/>
+            <a href="oracao.php"><img src="img/pedido.png" style="width:100%; height:200px;"/></a>
         </div>
     </div>
 
@@ -112,17 +112,6 @@
             <!--<img src="img/agenda.jpg" style="padding:3px; width:25px; height:25px; display: inline-block;"/> -->
             <img src="img/horamissa.png"  width="90%" height="180px;"/>
         </div>
-
-        <!--<div style="display: block;" >
-            <div class="conteudocaixa3">
-                <div class="horamissa">
-                    <p>Quartas-Feiras: 19:30 </p>
-                    <p>Sextas-Feiras:  15:00 </p>
-                    <p>Sábados:        18:00 e 20:00</p>
-                    <p>Domingos:       08:00 e 19:00</p>
-                </div> 
-            </div>
-        </div>-->
     </div>
 </div>
 
