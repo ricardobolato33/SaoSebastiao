@@ -10,16 +10,19 @@
         </script>
     </div>
     
+    
     <div class="conectar">
         <a href="administrativo.php"><img src="img/bto-conectar.ico" style=" padding:0px;  width:20px; height:20px;"></a>
     </div>
-
+    
+    <!--
     <div class="area-adm">
-         <form>
+         <form name="form-adm" action="administrativo.php" method="POST">
              <input class="input-area"  type="usuario" placeholder="Usuário">
              <input class="input-area"  type="senha" placeholder="Password">
+             <input type="submit" name="enviar" value="Enviar">
         </form>
-    </div>
+    </div>-->
 
 </div> 
 

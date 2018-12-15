@@ -2,6 +2,7 @@
     include_once('header.php');
 ?>
 
+
 <!-- DIV BARRA TOP-->
 <div class="barra1">
     <div class="diasemana">
@@ -69,15 +70,19 @@
 </div>
 
 <div class="divoracao">   
+    <div class="informacao_oracao">
+        <span>Acenda sua vela de São Sebastião. Faça seu pedido de uma graça ou um livramento</span>
+    </div>
+    
     <div class="formulario">
-        <form class="form_vela" name="form-oracao" action="" method="post">
+        <form class="form_vela" name="form-oracao" action="cadastrar_oracao.php" method="POST">
            <h1>Envie seu pedido de oração</h1> 
            <p class="nome">
                 <input type="text" name="nome" placeholder="informe seu nome" required="required">
             </p>
 
             <p class="email">
-                <input type="email" name="email" placeholder="informe seu email" required="required">
+                <input type="email" name="email" placeholder="informe seu email (Opcional)">
             </p>
 
             <p class="mensagem">
@@ -91,7 +96,15 @@
     </div>
 
     <div class="vela">
-        <img src="img/vela_acesa.gif" style="padding:0px;  width:100%; border-radius: 8px 8px 8px 8px;"> 
+        <img src="img/vela_acesa.gif" style="width:51%"> 
+        <img src="img/mulher-rezando.png" style="width:40%;"> 
+    </div>
+
+    <div class="informacao1">
+        <span>Nosso compromisso zelar pela sua privacidade. Fique em paz!</span>
+    </div>
+    <div class="informacao2">
+        <span>"Não andem ansiosos por coisa alguma, mas em tudo, pela oração e súplicas, e com ação de graças, apresentem seus pedidos a Deus." - Felipenses 4:6</span>
     </div>
 </div>
      

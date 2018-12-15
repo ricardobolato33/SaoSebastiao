@@ -17,7 +17,7 @@ body{
   color: white;
   font-size: 12px;
   margin-top: 23px;
-  width: 90%;
+  width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-weight: bold;
@@ -28,29 +28,11 @@ body{
   display: block;
   width: 25px;
   margin-left: 96.5%;
-  margin-top: -5px;
+  margin-top: -15px;
 }
 
 .conectar:hover{
   cursor: pointer;
-}
-
-.area-adm{
-  display: block;
-  height: 50px;
-  margin-left: 85%;
-  margin-top: -50px;
-}
-
-.input-area{
-  width: 70%;
-  height: 22px;
-  font-size: 0.8rem;
-  line-height: 2;
-  background-color: #fff;
-  border-radius: 0.25rem;
-  box-sizing: border-box;
-  margin-bottom: 2%;
 }
 
 .input-area:focus {
