@@ -1,0 +1,56 @@
+.divadm{
+  display: block;
+  padding: 0px;
+  width: 100%;
+  background-color:white;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.formulario_adm{
+  display: inline-block;
+  width: 25%;
+  margin-bottom: 3%;
+  margin-top: 2%;
+  margin-left: 32%;
+  border: 4px solid #B22222;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+.form_login{
+  font-size: 20px;
+  background: black;
+  width: 95%;
+  margin-left: 0;
+  padding: 10px 10px 10px 10px;
+  }
+
+  .titulo_adm{
+    font-size: 15pt;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  input{
+    margin-bottom: 10px;
+  }
+
+.enviar_login input {
+  background-color:#A52A2A;
+  height: 40px;    width: 90%;
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid;
+  color: #FFF;
+  cursor: pointer;
+  margin-left: 4.5%;
+}
+
+.enviar_login input:hover{
+   background: #B22222;
+ }
