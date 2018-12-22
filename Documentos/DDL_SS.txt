@@ -23,3 +23,16 @@ COMMIT;
 INSERT INTO t_usuario_adm (NM_USUARIO, DS_SENHA) values 
 ('administrador','graçadeDeus');
 commit;
+
+CREATE TABLE `t_mensagem_aviso` (
+  `DS_MENSAGEM1` varchar(3000) DEFAULT NULL,
+  `DS_MENSAGEM2` varchar(3000) DEFAULT NULL
+);
+COMMIT;
+
+INSERT INTO t_mensagem_aviso (DS_MENSAGEM1, DS_MENSAGEM2 ) values 
+('O Senhor é meu pastor e nada me faltará','Missa todos os Domingos nos horário 07:30 e 19:00');
+commit;
+
+ALTER DATABASE `bancodedados` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+commit;

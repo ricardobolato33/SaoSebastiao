@@ -1,7 +1,6 @@
 <?php
     include_once('header.php');
 ?>
-
 <!-- DIV BARRA TOP-->
 <div class="barra1">
     <div class="diasemana">
@@ -12,7 +11,7 @@
     
     
     <div class="conectar">
-        <a href="administrativo.php"><img src="img/bto-conectar.ico" style=" padding:0px;  width:20px; height:20px;"></a>
+        <a href="administrativo.php"><img src="img/bto-conectar.png" title="Área do Administrador" style=" padding:0px;  width:40px; height:40px;"></a>
     </div>
     
     <!--
@@ -38,14 +37,29 @@
         </div>
     </div>
 
+    <?php
+        /* conexão com o banco de dados */        
+        $conexao = mysqli_connect('Localhost','root','','db_ss');
+        mysqli_set_charset( $conexao, 'utf8');
+	    $query   = "SELECT DS_MENSAGEM1, DS_MENSAGEM2 FROM T_MENSAGEM_AVISO";
+        $retorno = mysqli_query($conexao, $query);
+        $dados   = mysqli_fetch_assoc($retorno);
+
+        $mensagem_1 = trim($dados['DS_MENSAGEM1']);
+        $mensagem_2 = trim($dados['DS_MENSAGEM2']);
+    ?>
+    
      <div class="infaviso">
          <div class="txtfmarquee">
-            <marquee> O Senhor é meu pastor e nada me faltará &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Missa todos os Domingos nos horário 07:30 e 19:00</marquee>
+            <marquee> 
+                <?php echo $mensagem_1 ?> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <?php echo $mensagem_2 ?>
+            </marquee>
         </div>
     </div>
-     
+
     <!--<div class="logo_2">
         <img src="img/logo2.jpg" style="width:180; height:100px;"> 
     </div>-->

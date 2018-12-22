@@ -71,7 +71,7 @@
 
 <div class="divadm">   
     <div class="formulario_adm">
-        <form  action="reserv.php" method="POST">
+        <form  action="valida_login.php" method="POST">
            <div class="titulo_adm">Informe seu usuário e senha</div> 
                 <input type="text"     name="usuario" placeholder="informe seu usuario" required="required">
                 <input type="password" name="senha"   placeholder="informe sua senha"   required="required">

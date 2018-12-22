@@ -1,6 +1,18 @@
 <?php
     include_once('header.php');
-    @include_once("db_listar_oracao.php") /* carrega o select para listar as orações enviadas */
+    @include_once("db_listar_oracao.php"); /* carrega o select para listar as orações enviadas */
+    session_start();
+
+    $id_logado = trim($_SESSION['id_logado']);
+    
+    if ($id_logado != "S"){
+        echo "<script language=javascript>
+                window.location = 'administrativo.php'; 
+                alert( 'Atenção: Usuário não fez o login da forma correta. Verifique seu usuário e senha a tente novamente!');
+             </script>";
+        session_destroy();
+    }
+    $id_logado = "N";
 ?>
 
 <!-- DIV BARRA TOP-->
@@ -66,44 +78,12 @@
     </div>
 </div>
 
-<?php
-    /*INICIA A VERIFICAÇÃO DO USUÁRIO E SENHA DIGITADO, VERIFICA SE É VÁLIDO*/
-    if (!isset($_POST['usuario']) && !isset($_POST['senha'])){
-        session_destroy();
-        echo "<script language=javascript>
-                window.location = 'index.php'; 
-                alert( 'Atenção: Usuário/Senha não foi informado!');
-             </script>";
-        exit();
-    }
-    /* TIRA OS ESPAÇOS */
-    $usuario = trim($_POST['usuario']);
-    $senha   = trim($_POST['senha']);
-   
-    /* CONECTANDO COM O BANCO DE DADOS PARA VERIFICAR SE É VALIDO USUARIO E SENHA*/
-   $conexao = @mysqli_connect('localhost', 'root', '', 'db_ss'); 
-   $query   = "SELECT * FROM T_USUARIO_ADM WHERE NM_USUARIO = '$usuario' AND DS_SENHA = '$senha'";
-   $retorno = mysqli_query($conexao, $query) or die ('Erro ao conectar ao banco de dados!');
-   $dados   = mysqli_fetch_assoc($retorno);
-
-   if ($dados != null){
-        session_start();
-   }
-   else{
-        echo "<script language=javascript>
-                window.location = 'administrativo.php'; 
-                alert( 'Atenção: Usuário/Senha inválido. Entre com usuario correto!');
-             </script>";
-        exit();
-   } 
-?>
-
 <div class="area_reserv">
     <h2>Área Administrativa</h2>
 </div>
 
 <div class="titulos">
-  Pedidos de orações enviados
+  <p>Pedidos de orações enviados</p>
 </div>
 
 <div class = "reserv">
@@ -133,6 +113,22 @@
 </div>
 
 
+<div class="remove_oracao">
+    <span> <b>Remoção de Pedidos de Oração:</b> Informe um Id inicial e Final e clique sobre o botão remover</span>
+    <form class="form_remove_oracao" name="form-oracao" action="db_remove_oracao.php" method="POST">
+        <input class="campo" type="text"   name="id_inicial"   placeholder="informe ID inicial" required="required">
+        <input class="campo" type="text"   name="id_final"     placeholder="informe ID final"   required="required">
+        <input class="campo" type="submit" name="bto_remover"  value="Remover">
+    </form>
+</div>
+
+<div class="titulos">
+    <p>Mensagens de Avisos</p>
+</div>
+
+<?php
+    session_destroy();
+?>
 <?php
     include_once('footer.php');
 ?>
