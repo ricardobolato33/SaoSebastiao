@@ -25,14 +25,27 @@
         </div>
     </div>
 
+     <?php
+        /* conexão com o banco de dados para carregar os avisos*/        
+        $conexao = mysqli_connect('Localhost','root','','db_ss');
+        mysqli_set_charset( $conexao, 'utf8'); /* comando para corrigir os caracteres especiais */
+	    $query   = "SELECT DS_MENSAGEM1, DS_MENSAGEM2 FROM T_MENSAGEM_AVISO";
+        $retorno = mysqli_query($conexao, $query);
+        $dados   = mysqli_fetch_assoc($retorno);
+
+        $mensagem_1 = trim($dados['DS_MENSAGEM1']);
+        $mensagem_2 = trim($dados['DS_MENSAGEM2']);
+    ?>
+    
      <div class="infaviso">
          <div class="txtfmarquee">
-            <marquee> O Senhor é meu pastor e nada me faltará</marquee>
+            <marquee> 
+                <?php echo $mensagem_1 ?> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <?php echo $mensagem_2 ?>
+            </marquee>
         </div>
-    </div>
-     
-    <div class="logo_2">
-        <img src="img/logo2.jpg" style="width:180; height:100px;"> 
     </div>
 </div> 
 

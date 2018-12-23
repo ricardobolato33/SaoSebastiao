@@ -1,6 +1,7 @@
 <?php
     include_once('header.php');
     @include_once("db_listar_oracao.php"); /* carrega o select para listar as orações enviadas */
+    @include_once("db_listar_mensagem_aviso.php"); /* carrega o select para listar as mensagem */
     session_start();
 
     $id_logado = trim($_SESSION['id_logado']);
@@ -35,9 +36,26 @@
         </div>
     </div>
 
+     <?php
+        /* conexão com o banco de dados para carregar os avisos*/        
+        $conexao = mysqli_connect('Localhost','root','','db_ss');
+        mysqli_set_charset( $conexao, 'utf8'); /* comando para corrigir os caracteres especiais */
+	    $query   = "SELECT DS_MENSAGEM1, DS_MENSAGEM2 FROM T_MENSAGEM_AVISO";
+        $retorno = mysqli_query($conexao, $query);
+        $dados   = mysqli_fetch_assoc($retorno);
+
+        $mensagem_1 = trim($dados['DS_MENSAGEM1']);
+        $mensagem_2 = trim($dados['DS_MENSAGEM2']);
+    ?>
+    
      <div class="infaviso">
          <div class="txtfmarquee">
-            <marquee> O Senhor é meu pastor e nada me faltará</marquee>
+            <marquee> 
+                <?php echo $mensagem_1 ?> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <?php echo $mensagem_2 ?>
+            </marquee>
         </div>
     </div>
 </div> 
@@ -83,7 +101,7 @@
 </div>
 
 <div class="titulos">
-  <p>Pedidos de orações enviados</p>
+  <p><b>Pedidos de orações enviados</b></p>
 </div>
 
 <div class = "reserv">
@@ -112,7 +130,6 @@
 	</table>
 </div>
 
-
 <div class="remove_oracao">
     <span> <b>Remoção de Pedidos de Oração:</b> Informe um Id inicial e Final e clique sobre o botão remover</span>
     <form class="form_remove_oracao" name="form-oracao" action="db_remove_oracao.php" method="POST">
@@ -123,12 +140,32 @@
 </div>
 
 <div class="titulos">
-    <p>Mensagens de Avisos</p>
+    <p><b>Mensagens de Avisos</b></p>
+</div>
+
+<?php
+    /* seleciona as mensagens de aviso do banco de dados para depois popular nos inputs */
+    $dados_msg    = mysqli_fetch_assoc($exec_msg);
+    $ds_mesagem_1 = $dados_msg['DS_MENSAGEM1'];
+    $ds_mesagem_2 = $dados_msg['DS_MENSAGEM2'];
+?>
+
+<div class="mensagem_aviso">
+    <span> <b>Mensagens de Avisos:</b> Informe as mensagens que serão apresentadas na página principal e clique sobre o botão gravar.</span>
+    <form class="form_aviso" name="form_mensagem_aviso" action="db_atualiza_mensagem_aviso.php" method="POST">
+    <label>Primeira Mensagem:</label>  <input class="campo_msg" type="text"    name="ds_mensagem1"   value = "<?php echo($ds_mesagem_1)?>"</br> 
+    <label>Segunda Mensagem: </label>  <input class="campo_msg" type="text"    name="ds_mensagem2"   value = "<?php echo($ds_mesagem_2)?>"                                     > 
+        <input class="bto-gravar-msg" type="submit"  name="bto_gravar"   value="Atualizar Msg.">
+    </form>
+</div>
+
+<div class="validar_alteracoes"> 
+    <form class="valida_alt" action="sair_reserv.php" method="POST">
+        <input class="bto-gravar-msg" type="submit"  name="bto_gravar"   value="Sair">
+    </form>
 </div>
 
 <?php
     session_destroy();
-?>
-<?php
     include_once('footer.php');
 ?>

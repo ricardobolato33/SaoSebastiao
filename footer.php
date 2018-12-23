@@ -9,7 +9,7 @@
 	<div class="direito"> 
 		<div class="reservado">
 			<div class="txtreservado">
-				   <span>© 2018 - Paróquia São Sebastião - Todos os direitos reservados</span>
+				   <span>© 2019 - Paróquia São Sebastião - Todos os direitos reservados</span>
 			</div>
 		</div>
 	</div>

@@ -26,9 +26,8 @@ body{
 /****area administrativa*****/
 .conectar{
   display: block;
-  width: 25px;
-  margin-left: 95.5%;
-  margin-top: -30px;
+  margin-left: 86%;
+  margin-top: -27px;
 }
 
 .conectar:hover{

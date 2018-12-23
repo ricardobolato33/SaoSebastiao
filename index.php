@@ -9,20 +9,9 @@
         </script>
     </div>
     
-    
     <div class="conectar">
-        <a href="administrativo.php"><img src="img/bto-conectar.png" title="Área do Administrador" style=" padding:0px;  width:40px; height:40px;"></a>
+        <a href="administrativo.php"><img src="img/bto-conectar.png" title="Área do Administrador" style=" padding:0px;  width:150px; height:37px;"></a>
     </div>
-    
-    <!--
-    <div class="area-adm">
-         <form name="form-adm" action="administrativo.php" method="POST">
-             <input class="input-area"  type="usuario" placeholder="Usuário">
-             <input class="input-area"  type="senha" placeholder="Password">
-             <input type="submit" name="enviar" value="Enviar">
-        </form>
-    </div>-->
-
 </div> 
 
 <div class="logo">
@@ -38,9 +27,9 @@
     </div>
 
     <?php
-        /* conexão com o banco de dados */        
+        /* conexão com o banco de dados para carregar os avisos*/        
         $conexao = mysqli_connect('Localhost','root','','db_ss');
-        mysqli_set_charset( $conexao, 'utf8');
+        mysqli_set_charset( $conexao, 'utf8'); /* comando para corrigir os caracteres especiais */
 	    $query   = "SELECT DS_MENSAGEM1, DS_MENSAGEM2 FROM T_MENSAGEM_AVISO";
         $retorno = mysqli_query($conexao, $query);
         $dados   = mysqli_fetch_assoc($retorno);

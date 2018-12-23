@@ -36,3 +36,6 @@ commit;
 
 ALTER DATABASE `bancodedados` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 commit;
+
+
+/* DICA  Ou vá em: Edit -> Preferences -> SQL Editor e desmarque "Safe Updates"  */

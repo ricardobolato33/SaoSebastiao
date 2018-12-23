@@ -1,9 +1,10 @@
 ul#album-fotos{
 	width: 100%;
 	margin: 0 auto;
-	padding: 40px;
+	padding: 15px;
 	overflow: hidden;
   list-style: none;
+  margin-top: 1%;
 }
 
 ul#album-fotos li{
