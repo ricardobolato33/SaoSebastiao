@@ -6,28 +6,29 @@ body{
 
 .barra1{
   display: inline-block;
-  background-color: #8B0000;
+  background-image: linear-gradient(to bottom, white, #4682B4);
   width: 100%;
-  height: 60px;
-  border-radius: 0px 0px 0px 0px;
+  height: 80px;
+  border-radius: 15px 15px 0px 0px;
+  margin-bottom: 0.5%;
 }
 
 .diasemana{
   display: block;
   color: white;
   font-size: 12px;
-  margin-top: 23px;
+  margin-top: 30px;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 /****area administrativa*****/
 .conectar{
   display: block;
-  margin-left: 86%;
-  margin-top: -27px;
+  margin-left: 88%;
+  margin-top: -40px;
 }
 
 .conectar:hover{
@@ -46,6 +47,7 @@ body{
   padding: 0px;
   height: 135px;
   background-color:white;
+  margin-bottom: 0.5%;
 }
 
 .logo_pri{
@@ -67,7 +69,7 @@ body{
   height: 42px;
   margin-left: 250px;
   margin-top: 50px;
-  background-color:#B22222;
+  background-color:#4682B4;
   font-size: 20px;
   border-radius: 5px 0px 0px 5px;
 }
@@ -76,7 +78,7 @@ body{
 .txtaviso{
   font-size: 20px;
   width: 60px;
-  margin-top: -12px;
+  margin-top: -10px;
   margin-inline-start: 17px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
@@ -90,19 +92,19 @@ body{
   height: 38px;
   margin-left: 340px;
   margin-top: 50px;
-  background-color:white;
-  border:2px solid #B22222;
+  background-color:#4682B4;
+  border:2px solid #4682B4;
   border-radius: 0px 5px 5px 0px;
 }
 
 .txtfmarquee{
   width: 100%;
-  background-color: white;
+  background-color: #4682B4;
   margin-top: 9px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  font-weight: 650;
-  color: #B22222;
+  font-weight: 490;
+  color: white; /* cor do texto rolante */
 }
 
 /* menos que 965px o site se reajusta */
@@ -129,6 +131,25 @@ body{
    }
 }
 
+@media(max-width: 1140px){
+  .conectar{
+    display: block;
+    margin-left: 81%;
+  }
+}
+
+@media(max-width: 898px){
+  .conectar{
+    display: block;
+    margin-left: 77%;
+  }
+}
+
+@media(max-width: 710px){
+  .conectar{
+    display: none;
+  }
+}
 .aviso2{
   position: absolute;
   width: 90px;
@@ -144,7 +165,6 @@ body{
   height: 100px;
   background-color:white;
   margin-left: 83%;
-  background-color: red
 }
 
 .div_slider{
@@ -162,7 +182,7 @@ body{
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: #B22222; /* cor de menu pai sem selecionar*/
+ background-color: #4682B4; /* cor de menu pai sem selecionar*/
   font-family: Arial;
 }
 
@@ -196,7 +216,7 @@ body{
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color:#A52A2A; /*cor de fundo do menu pai*/
+  background-color:#80adce; /*cor de fundo do menu pai*/
 }
 
 /* Dropdown content (hidden by default) */
@@ -222,7 +242,7 @@ body{
 
 /* quando passa o mouse sobre o menu - Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color:#A52A2A;
+  background-color:#80adce;
   color: white;
 }
 
@@ -285,7 +305,7 @@ body{
 .informacao_ter{
   margin-top: 2%;
   margin-right: 0px;
-  margin-left:2 %;
+  margin-left:2%;
   /*border-width: medium;
   border-style: solid;
   border-color: #855E42;
@@ -349,9 +369,10 @@ body{
   color: black;
 }
 
+/***************************************************/
 .rodape{
   position: relative;
-  background-color: #B22222;
+  background-color: #4682B4;
   width: 100%;
   height: 50px;
 }
@@ -366,31 +387,33 @@ body{
 
 .divnrtel{
   position: absolute;
-  color: white;
+  color: black;
   font-size: 12px;
   margin-top: 10px;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  font-weight: 600;
 }
 
 .divendereco{
   position: absolute;
-  color:white;
+  color:black;
   width: 100%;
   font-size: 12px;
   margin-top: 29px;
   margin-left: 0px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  font-weight: 600;
 }
 
 .direito{
   position: relative;
-  background-color: #8B0000;
+  background-image: linear-gradient(to bottom, #4682B4, white);
   width: 100%;
-  height: 40px;
-  border-radius: 0px 0px 0px 0px;
+  height: 50px;
+  border-radius: 0px 0px 15px 15px;
 }
 
 .reservado{
@@ -400,11 +423,19 @@ body{
 
 .txtreservado{
   position: absolute;
-  color: white;
+  color: black;
   width: 100%;
   height: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 8pt;
   margin-top: 1%;
   text-align: center;
+  font-weight: 600;
+}
+
+.banner{
+  display: inline-block;
+  width: 53%;
+  margin-bottom: 1%;
+  margin-left: 25%;
 }

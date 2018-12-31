@@ -71,7 +71,7 @@
                 </button>
                 <div class="dropdown-content">
                     <a href="fotos.php">Fotos</a>
-                    <a href="videos.php">Videos</a>
+                    <a href="videos.php">Vídeos</a>
                     <a href="#">Audio</a>
                 </div>
             </div> 

@@ -71,14 +71,14 @@
                 </button>
                 <div class="dropdown-content">
                     <a href="fotos.php">Fotos</a>
-                    <a href="videos.php">Videos</a>
-                    <a href="#">Audio</a>
+                    <a href="videos.php">Vídeos</a>
+                    <a href="audio.php">Audio</a>
                 </div>
             </div> 
             
             <div class="navbar">
                 <a href="oracao.php">Pedido de Oração</a>
-                <a href="#home">Notícias</a>
+                <a href="noticia.php">Notícias</a>
                 <a href="atendimento.php">Contato</a>
             </div> 
         </div>  
@@ -131,6 +131,13 @@
         <h3>Devoção a São Sebastião</h3>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tal como São Jorge, Sebastião foi um dos soldados romanos mártires e santos, cujo culto nasceu no século IV e que atingiu o seu auge nos séculos XIV e XV, tanto na Igreja Católica como na Igreja Ortodoxa.
         São Sebastião é celebrado no dia 20 de janeiro. Existe também uma capela em Palatino, com uma pintura que mostra Irene tratando das feridas de Sebastião. Irene também foi canonizada e sua festa é no dia 30 de março.
+    </div>
+</div>
+
+<div class="oracao_ss">
+    <div style="display: block;">
+        <img src="img/moldura_oracao.jpg"  style="width:100%; height:350px;"/>
+        
     </div>
 </div>
 

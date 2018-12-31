@@ -71,46 +71,49 @@
                 </button>
                 <div class="dropdown-content">
                     <a href="fotos.php">Fotos</a>
-                    <a href="videos.php">Videos</a>
-                    <a href="#">Audio</a>
+                    <a href="videos.php">Vídeos</a>
+                    <a href="audio.php">Audio</a>
                 </div>
             </div> 
             
             <div class="navbar">
                 <a href="oracao.php">Pedido de Oração</a>
-                <a href="#home">Notícias</a>
+                <a href="noticia.php">Notícias</a>
                 <a href="atendimento.php">Contato</a>
             </div> 
         </div>  
     </div>
 </div>
- 
+ <div class = "titulo_album">
+    <h4> Passe o mouse sobre as fotos para ampliá-las </h4>
+ </div>
+
 <ul id="album-fotos">
-    <li id="foto01"><span>São Sebastião</span></li>
-    <li id="foto02"><span>São Sebastião</span></li>
-    <li id="foto03"><span>São Sebastião</span></li>
-    <li id="foto04"><span>São Sebastião</span></li>
-    <li id="foto05"><span>São Sebastião</span></li>
-    <li id="foto06"><span>São Sebastião</span></li>
-    <li id="foto07"><span>São Sebastião</span></li>
-    <li id="foto08"><span>São Sebastião</span></li>
-    <li id="foto09"><span>São Sebastião</span></li>
-    <li id="foto010"><span>São Sebastião</span></li>
-    <li id="foto011"><span>São Sebastião</span></li>
-    <li id="foto012"><span>São Sebastião</span></li>
-    <li id="foto013"><span>São Sebastião</span></li>
-    <li id="foto014"><span>São Sebastião</span></li>
-    <li id="foto015"><span>São Sebastião</span></li>
-    <li id="foto016"><span>São Sebastião</span></li>
-    <li id="foto017"><span>São Sebastião</span></li>
-    <li id="foto018"><span>São Sebastião</span></li>
-    <li id="foto019"><span>São Sebastião</span></li>
-    <li id="foto020"><span>São Sebastião</span></li>
-    <li id="foto021"><span>São Sebastião</span></li>
-    <li id="foto022"><span>São Sebastião</span></li>
-    <li id="foto023"><span>São Sebastião</span></li>
-    <li id="foto024"><span>São Sebastião</span></li>
-    <li id="foto025"><span>São Sebastião</span></li>
+    <li id="foto01"><span>Paróquia São Sebastião</span></li>
+    <li id="foto02"><span>Paróquia São Sebastião</span></li>
+    <li id="foto03"><span>Paróquia São Sebastião</span></li>
+    <li id="foto04"><span>Paróquia São Sebastião</span></li>
+    <li id="foto05"><span>Paróquia São Sebastião</span></li>
+    <li id="foto06"><span>Paróquia São Sebastião</span></li>
+    <li id="foto07"><span>Paróquia São Sebastião</span></li>
+    <li id="foto08"><span>Paróquia São Sebastião</span></li>
+    <li id="foto09"><span>Paróquia São Sebastião</span></li>
+    <li id="foto010"><span>Paróquia São Sebastião</span></li>
+    <li id="foto011"><span>Paróquia São Sebastião</span></li>
+    <li id="foto012"><span>Paróquia São Sebastião</span></li>
+    <li id="foto013"><span>Paróquia São Sebastião</span></li>
+    <li id="foto014"><span>Paróquia São Sebastião</span></li>
+    <li id="foto015"><span>Paróquia São Sebastião</span></li>
+    <li id="foto016"><span>Paróquia São Sebastião</span></li>
+    <li id="foto017"><span>Paróquia São Sebastião</span></li>
+    <li id="foto018"><span>Paróquia São Sebastião</span></li>
+    <li id="foto019"><span>Paróquia São Sebastião</span></li>
+    <li id="foto020"><span>Paróquia São Sebastião</span></li>
+    <li id="foto021"><span>Paróquia São Sebastião</span></li>
+    <li id="foto022"><span>Paróquia São Sebastião</span></li>
+    <li id="foto023"><span>Paróquia São Sebastião</span></li>
+    <li id="foto024"><span>Paróquia São Sebastião</span></li>
+    <li id="foto025"><span>Paróquia São Sebastião</span></li>
 </ul>
      
 

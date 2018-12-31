@@ -10,7 +10,7 @@
   position: absolute; /* uma imagem fica uma abaixo da outra */
   opacity: 0;
   animation-name: animacao;
-  animation-duration: 20s;
+  animation-duration: 25s;
   animation-iteration-count: infinite;
 }
 

@@ -72,13 +72,13 @@
                 <div class="dropdown-content">
                     <a href="fotos.php">Fotos</a>
                     <a href="videos.php">Videos</a>
-                    <a href="#">Audio</a>
+                    <a href="audio.php">Audio</a>
                 </div>
             </div> 
             
             <div class="navbar">
                 <a href="oracao.php">Pedido de Oração</a>
-                <a href="#home">Notícias</a>
+                <a href="noticia.php">Notícias</a>
                 <a href="atendimento.php">Contato</a>
             </div> 
         </div>  

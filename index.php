@@ -10,7 +10,7 @@
     </div>
     
     <div class="conectar">
-        <a href="administrativo.php"><img src="img/bto-conectar.png" title="Área do Administrador" style=" padding:0px;  width:150px; height:37px;"></a>
+        <a href="administrativo.php"><img src="img/bto-conectar.png" title="Área do Administrador" style=" padding:0px;  width:120px; height:55px;"></a>
     </div>
 </div> 
 
@@ -22,7 +22,7 @@
 
     <div class="aviso1">
         <div class="txtaviso">
-            <p>Avisos</p>
+            <p>Avisos:</p>
         </div>
     </div>
 
@@ -54,7 +54,7 @@
     </div>-->
 </div> 
 
-   <!-- DIV MENU-->
+<!-- DIV MENU-->
 <div class="menu_pri">
     <div class="navbar">  
         <div class="dropdown">
@@ -76,14 +76,14 @@
                 </button>
                 <div class="dropdown-content">
                     <a href="fotos.php">Fotos</a>
-                    <a href="videos.php">Videos</a>
-                    <a href="#">Audio</a>
+                    <a href="videos.php">Vídeos</a>
+                    <a href="audio.php">Audio</a>
                 </div>
             </div> 
             
             <div class="navbar">
                 <a href="oracao.php">Pedido de Oração</a>
-                <a href="#home">Notícias</a>
+                <a href="noticia.php">Notícias</a>
                 <a href="atendimento.php">Contato</a>
             </div> 
         </div>  
@@ -119,6 +119,10 @@
             <img src="img/horamissa.png"  width="90%" height="180px;"/>
         </div>
     </div>
+</div>
+
+<div class="banner">
+    <img src="img/Triduo2019.jpg"  height="150px;"/>
 </div>
 
 <?php
